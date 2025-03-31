@@ -5,7 +5,7 @@ import { FaSun, FaMoon } from "react-icons/fa";
 const Navbar = ({ theme, setTheme }) => {
   return (
     <nav className="w-full py-4 px-6 flex justify-between items-center bg-gray-800 dark:bg-gray-900 text-white">
-      <h1 className="text-xl font-bold">My Portfolio</h1>
+      <h1 className="text-4xl font-bold">ZS</h1>
       <div className="flex items-center gap-6">
         <Link to="/" className="hover:text-gray-400">
           Home

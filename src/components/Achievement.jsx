@@ -59,7 +59,7 @@ const Achievements = () => {
           <li>
             <strong>Google-Talentsprint WE Scholar (2023)</strong> - Among 200
             selected out of 22,000+ applicants, after clearing 4 rigorous
-            selection rounds.
+            selection rounds. Received 1,00,000 rupees in scholarship.
           </li>
           <li>
             <strong>Gold Medal (2019)</strong> - Awarded for academic

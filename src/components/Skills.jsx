@@ -9,6 +9,9 @@ const skills = [
   "C++",
   "Git & GitHub",
   "MongoDB",
+  "Computer Vision",
+  "Convolutional Neural Networks", 
+  "NLP"
 ];
 
 const Skills = () => {

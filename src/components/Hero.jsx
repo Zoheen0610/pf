@@ -23,13 +23,13 @@ const Hero = () => {
 
       <motion.a
         href="/resume.pdf" // Update this with the correct resume file path
-        download="Zoheen_Resume.pdf"
+        download="resume.pdf"
         className="mt-6 px-6 py-3 bg-gray-600 text-white font-semibold rounded-md hover:bg-blue-600 transition-all"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 1, duration: 0.5 }}
       >
-        Download Resume
+        Resume
       </motion.a>
     </section>
   );

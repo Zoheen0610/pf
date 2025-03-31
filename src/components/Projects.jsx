@@ -7,7 +7,7 @@ const projects = [
     title: "SkillPilot",
     description: "An AI-powered tool to suggest career paths based on skills.",
     image: skillpilotImg,
-    link: "https://skillpilot-wysm.onrender.com/",
+    link: "https://skillpilot.netlify.app/",
   },
   {
     title: "GEC-Model",

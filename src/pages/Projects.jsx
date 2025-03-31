@@ -5,7 +5,7 @@ const projects = [
     title: "SkillPilot",
     description:
       "AI-powered career guidance platform with resume tools and salary insights.",
-    link: "https://skillpilot-wysm.onrender.com/",
+    link: "https://skillpilot.netlify.app/",
   },
   {
     title: "Grammar Error Correction (GEC)",

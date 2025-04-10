@@ -47,6 +47,10 @@ const Experience = () => {
               Achieved 99.1 ROC score with MobileNet for breast cancer
               detection.
             </li>
+            <li>
+              Co-authored a research paper based on results from the comparative
+              CNN analysis for medical image classification
+            </li>
           </ul>
         </div>
 

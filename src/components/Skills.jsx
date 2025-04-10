@@ -2,8 +2,9 @@ import React from "react";
 
 const skills = [
   "JavaScript",
-  "React",
+  "React.js",
   "Node.js",
+  "Express.js",
   "Tailwind CSS",
   "Python",
   "C++",

@@ -11,7 +11,7 @@ const projects = [
   },
   {
     title: "GEC-Model",
-    description: "A productivity app designed like a desk page.",
+    description: "A Grammar checker ML model using T5",
     image: nlp,
     link: "https://github.com/Zoheen0610/GEC",
   },

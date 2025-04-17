@@ -22,7 +22,7 @@ const Hero = () => {
       </motion.p>
 
       <motion.a
-        href="/resume.pdf" // Update this with the correct resume file path
+        href="https://drive.google.com/file/d/1gskdKinGuf4x8EzluCHMOPltVe2mUre8/view?usp=sharing"
         download="resume.pdf"
         className="mt-6 px-6 py-3 bg-gray-600 text-white font-semibold rounded-md hover:bg-blue-600 transition-all"
         initial={{ opacity: 0, scale: 0.8 }}

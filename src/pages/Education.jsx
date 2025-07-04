@@ -15,7 +15,7 @@ const Education = () => {
           <p className="text-gray-600 dark:text-gray-300">
             Jamia Millia Islamia, New Delhi (2022-26)
           </p>
-          <p className="text-gray-600 dark:text-gray-300">CGPA: 8.2</p>
+          <p className="text-gray-600 dark:text-gray-300">CGPA: 8.56</p>
         </div>
         <div className="border p-4 rounded-lg shadow-md hover:shadow-lg transition">
           <h2 className="text-xl font-semibold">

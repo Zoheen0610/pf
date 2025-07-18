@@ -7,7 +7,7 @@ import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 
 function App() {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
   useEffect(() => {
     document.documentElement.className = theme; // Apply theme class to the whole document

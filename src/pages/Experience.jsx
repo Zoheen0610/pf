@@ -2,77 +2,60 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="max-w-3xl mx-auto py-10 px-5">
-      <h1 className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-6">
-        Experience
-      </h1>
-      <div className="space-y-6">
+    <div className="max-w-3xl mx-auto py-16 px-5">
+      {/* Section Title */}
+      <div className="text-center mb-10">
+        <h1 className="text-4xl font-bold text-blue-600 dark:text-blue-400">
+          Experience
+        </h1>
+        <div className="mt-2 w-24 h-1 bg-blue-500 mx-auto rounded-full" />
+      </div>
+
+      {/* Experience Cards */}
+      <div className="space-y-8">
         {/* MLOps Intern */}
-        <div className="border p-4 rounded-lg shadow-md hover:shadow-lg transition">
-          <h2 className="text-xl font-semibold">MLOps Intern</h2>
-          <p className="text-gray-600 dark:text-gray-300">
-            EndorseSphere Ventures Private Limited (Nov 2024 - Jan 2025)
+        <div className="border p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+          <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">
+            MLOps Intern
+          </h2>
+          <p className="text-gray-500 dark:text-gray-300">
+            EndorseSphere Ventures (Nov 2024 - Jan 2025)
           </p>
           <ul className="list-disc pl-5 mt-2 text-gray-600 dark:text-gray-300">
-            <li>
-              Contributed to the development of an AI-driven job matching system
-              as part of a team.
-            </li>
-            <li>
-              Worked on implementing Named Entity Recognition (NER) and cosine
-              similarity to improve job-to-candidate recommendations.
-            </li>
-            <li>
-              Collaborated with senior team members to refine the algorithm for
-              better accuracy and efficiency.
-            </li>
+            <li>Worked on AI-based job matching system.</li>
+            <li>Used NER and cosine similarity for better recommendations.</li>
+            <li>Improved algorithm with senior developers.</li>
           </ul>
         </div>
 
-        {/* Summer Research Intern */}
-        <div className="border p-4 rounded-lg shadow-md hover:shadow-lg transition">
-          <h2 className="text-xl font-semibold">Summer Research Intern</h2>
-          <p className="text-gray-600 dark:text-gray-300">
+        {/* Research Intern */}
+        <div className="border p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+          <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">
+            Summer Research Intern
+          </h2>
+          <p className="text-gray-500 dark:text-gray-300">
             MNIT Jaipur (June 2024 - Aug 2024)
           </p>
           <ul className="list-disc pl-5 mt-2 text-gray-600 dark:text-gray-300">
-            <li>
-              Conducted research on digital mammogram image analysis using CNNs.
-            </li>
-            <li>
-              Compared 10 CNN models (ResNet, VGG, EfficientNet, etc.) for tumor
-              classification.
-            </li>
-            <li>
-              Achieved 99.1 ROC score with MobileNet for breast cancer
-              detection.
-            </li>
-            <li>
-              Co-authored a research paper based on results from the comparative
-              CNN analysis for medical image classification
-            </li>
+            <li>Analyzed mammograms using CNNs.</li>
+            <li>Compared ResNet, VGG, EfficientNet, etc.</li>
+            <li>Achieved 99.1 ROC with MobileNet.</li>
+            <li>Co-authored a research paper.</li>
           </ul>
         </div>
 
         {/* PR Internship */}
-        <div className="border p-4 rounded-lg shadow-md hover:shadow-lg transition">
-          <h2 className="text-xl font-semibold">PR Internship</h2>
-          <p className="text-gray-600 dark:text-gray-300">
+        <div className="border p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+          <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">
+            PR Internship
+          </h2>
+          <p className="text-gray-500 dark:text-gray-300">
             Shaagird Foundation, Delhi (June 2024 - Aug 2024)
           </p>
           <ul className="list-disc pl-5 mt-2 text-gray-600 dark:text-gray-300">
-            <li>
-              Assisted in networking and collaboration efforts with potential
-              donors and partners.
-            </li>
-            <li>
-              Worked on social media campaigns and outreach materials to enhance
-              visibility.
-            </li>
-            <li>
-              Helped in preparing pitch documents to support fundraising
-              initiatives.
-            </li>
+            <li>Networked with donors and partners.</li>
+            <li>Led social media campaigns.</li>
+            <li>Drafted pitch documents for fundraising.</li>
           </ul>
         </div>
       </div>

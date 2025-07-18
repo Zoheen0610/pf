@@ -3,14 +3,11 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section
-      id="contact"
-      className="py-16 bg-gray-100 dark:bg-gray-900 transition-all"
-    >
+    <section id="contact" className="py-16 transition-all">
       <div className="container mx-auto text-center px-5">
         {/* Title Animation */}
         <motion.h2
-          className="text-4xl font-extrabold text-blue-600 dark:text-blue-400"
+          className="text-4xl font-extrabold text-black dark:text-white"
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -36,7 +33,7 @@ const Contact = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 1, delay: 0.5 }}
+          transition={{ duration: 1, delay: 0.25 }}
         >
           <motion.a
             href="https://www.linkedin.com/in/zoheen-shahzad-239041252/"
@@ -76,25 +73,25 @@ const Contact = () => {
           <motion.input
             type="text"
             placeholder="Your Name"
-            className="w-full p-3 mb-4 border border-gray-300 dark:border-gray-700 rounded-md bg-white dark:bg-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 outline-none"
+            className="w-full p-3 mb-4 border border-gray-300 dark:border-gray-700 rounded-md bg-white dark:bg-gray-900 dark:text-white focus:ring-2 focus:ring-pink-cherry outline-none"
             whileFocus={{ scale: 1.02 }}
           />
           <motion.input
             type="email"
             placeholder="Your Email"
-            className="w-full p-3 mb-4 border border-gray-300 dark:border-gray-700 rounded-md bg-white dark:bg-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 outline-none"
+            className="w-full p-3 mb-4 border border-gray-300 dark:border-gray-700 rounded-md bg-white dark:bg-gray-900 dark:text-white focus:ring-2 focus:ring-pink-cherry outline-non"
             whileFocus={{ scale: 1.02 }}
           />
           <motion.textarea
             placeholder="Your Message"
             rows="4"
-            className="w-full p-3 mb-4 border border-gray-300 dark:border-gray-700 rounded-md bg-white dark:bg-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 outline-none"
+            className="w-full p-3 mb-4 border border-gray-300 dark:border-gray-700 rounded-md bg-white dark:bg-gray-900 dark:text-white focus:ring-2 focus:ring-pink-cherry outline-none"
             whileFocus={{ scale: 1.02 }}
           />
           <motion.button
             type="submit"
             whileHover={{ scale: 1.05 }}
-            className="w-full px-6 py-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition-all shadow-lg"
+            className="w-full px-6 py-3 bg-pink-200 text-black font-semibold rounded-md hover:bg-pink-300 transition-all shadow-lg"
           >
             Send Message
           </motion.button>

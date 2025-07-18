@@ -8,9 +8,9 @@ const Achievements = () => {
   const [ref2, inView2] = useInView({ triggerOnce: true, threshold: 0.2 });
 
   return (
-    <div className="max-w-3xl mx-auto py-10 px-5">
+    <div className=" text-black dark:text-white max-w-3xl mx-auto py-10 px-5">
       <motion.h1
-        className="text-4xl font-extrabold text-blue-600 dark:text-blue-400 mb-8 text-center"
+        className="text-4xl font-extrabold text-black dark:text-white mb-8 text-center"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
@@ -26,7 +26,7 @@ const Achievements = () => {
         animate={inView1 ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
         transition={{ duration: 0.5 }}
       >
-        <h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400">
+        <h2 className="text-2xl font-semibold ">
           GDSC-JMI (Social Media Team Lead)
         </h2>
         <p className="text-gray-600 dark:text-gray-300 mt-2">
@@ -36,8 +36,7 @@ const Achievements = () => {
         </p>
         <ul className="list-disc pl-5 mt-2 text-gray-600 dark:text-gray-300">
           <li>
-            Organized multiple tech events and fests ensuring smooth
-            execution.
+            Organized multiple tech events and fests ensuring smooth execution.
           </li>
           <li>Created high-impact reels and graphics for event promotion.</li>
           <li>Recognized for consistent and impactful contributions**.</li>
@@ -52,7 +51,7 @@ const Achievements = () => {
         animate={inView2 ? { opacity: 1, x: 0 } : { opacity: 0, x: 30 }}
         transition={{ duration: 0.5 }}
       >
-        <h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400">
+        <h2 className="text-2xl font-semibold text-black dark:text-white">
           Achievements
         </h2>
         <ul className="list-disc pl-5 mt-2 text-gray-600 dark:text-gray-300">

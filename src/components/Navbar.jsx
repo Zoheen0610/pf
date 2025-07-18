@@ -6,30 +6,27 @@ const Navbar = ({ theme, setTheme }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full py-4 px-6 bg-gray-800 dark:bg-gray-900 text-white">
+    <nav className="w-full py-4 px-6 bg-gray-800 text-white">
       <div className="flex justify-between items-center">
         <h1 className="text-4xl font-bold">ZS</h1>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-6">
-          <Link to="/" className="hover:text-gray-400">
+          <Link to="/" className="hover:text-pink-cherry">
             Home
           </Link>
-          <Link to="/education" className="hover:text-gray-400">
+          <Link to="/education" className="hover:text-pink-cherry">
             Education
           </Link>
-          <Link to="/experience" className="hover:text-gray-400">
+          <Link to="/experience" className="hover:text-pink-cherry">
             Experience
           </Link>
-          <Link to="/projects" className="hover:text-gray-400">
+          <Link to="/projects" className="hover:text-pink-cherry">
             Projects
           </Link>
 
           {/* Theme Toggle */}
-          <button
-            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-            className="p-2 rounded-full bg-gray-700 dark:bg-gray-600"
-          >
+          <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
             {theme === "dark" ? (
               <FaSun className="text-yellow-400" />
             ) : (
@@ -49,31 +46,48 @@ const Navbar = ({ theme, setTheme }) => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden mt-4 space-y-3 flex flex-col items-center bg-gray-700 dark:bg-gray-800 py-4 rounded-lg">
+        <div className="md:hidden mt-4 space-y-3 flex flex-col items-center mx-4 py-4 rounded-lg">
           <Link
             to="/"
-            className="hover:text-gray-400"
+            className="hover:text-pink-cherry hover:text-lg border-b
+            border-gray-500
+            text-center
+            w-full
+            pb-2
+            "
             onClick={() => setIsOpen(false)}
           >
             Home
           </Link>
           <Link
             to="/education"
-            className="hover:text-gray-400"
+            className="hover:text-pink-cherry hover:text-lg border-b border-gray-500
+            text-center
+            w-full
+            pb-3
+            pt-0"
             onClick={() => setIsOpen(false)}
           >
             Education
           </Link>
           <Link
             to="/experience"
-            className="hover:text-gray-400"
+            className="hover:text-pink-cherry hover:text-lg border-b border-gray-500
+            text-center
+            w-full
+            pb-3
+            pt-0"
             onClick={() => setIsOpen(false)}
           >
             Experience
           </Link>
           <Link
             to="/projects"
-            className="hover:text-gray-400"
+            className="hover:text-pink-cherry border-b hover:text-lg border-gray-500
+            text-center
+            w-full
+            pb-3
+            pt-0"
             onClick={() => setIsOpen(false)}
           >
             Projects
@@ -85,10 +99,10 @@ const Navbar = ({ theme, setTheme }) => {
               setTheme(theme === "dark" ? "light" : "dark");
               setIsOpen(false);
             }}
-            className="p-2 rounded-full bg-gray-600"
+            className="p-2 rounded-full "
           >
             {theme === "dark" ? (
-              <FaSun className="text-yellow-400" />
+              <FaSun className="text-yellow-300" />
             ) : (
               <FaMoon />
             )}

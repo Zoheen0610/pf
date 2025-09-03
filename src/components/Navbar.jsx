@@ -6,7 +6,7 @@ const Navbar = ({ theme, setTheme }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full py-4 px-6 bg-gray-800 text-white">
+    <nav className="relative z-20 w-full py-4 px-6  bg-gray-800 text-white">
       <div className="flex justify-between items-center">
         <h1 className="text-4xl font-bold">ZS</h1>
 
@@ -49,7 +49,7 @@ const Navbar = ({ theme, setTheme }) => {
         <div className="md:hidden mt-4 space-y-3 flex flex-col items-center mx-4 py-4 rounded-lg">
           <Link
             to="/"
-            className="hover:text-pink-cherry hover:text-lg border-b
+            className="hover:text-pink-cherry border-b
             border-gray-500
             text-center
             w-full
@@ -61,7 +61,7 @@ const Navbar = ({ theme, setTheme }) => {
           </Link>
           <Link
             to="/education"
-            className="hover:text-pink-cherry hover:text-lg border-b border-gray-500
+            className="hover:text-pink-cherry border-b border-gray-500
             text-center
             w-full
             pb-3
@@ -72,7 +72,7 @@ const Navbar = ({ theme, setTheme }) => {
           </Link>
           <Link
             to="/experience"
-            className="hover:text-pink-cherry hover:text-lg border-b border-gray-500
+            className="hover:text-pink-cherry border-b border-gray-500
             text-center
             w-full
             pb-3
@@ -83,7 +83,7 @@ const Navbar = ({ theme, setTheme }) => {
           </Link>
           <Link
             to="/projects"
-            className="hover:text-pink-cherry border-b hover:text-lg border-gray-500
+            className="hover:text-pink-cherry border-b  border-gray-500
             text-center
             w-full
             pb-3

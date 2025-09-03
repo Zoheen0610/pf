@@ -6,16 +6,20 @@ import Skills from "../components/Skills";
 import Contact from "../components/Contact";
 import Achievement from "../components/Achievement";
 import Backtotop from "../components/BackToTop";
+import Bg from "../components/Bg";
+
 const Home = () => {
   return (
-    <div className=" bg-gradient-to-br from-pink-50 via-white to-pink-100 dark:from-gray-800 dark:via-gray-700 dark:to-gray-900 text-black dark:text-white">
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Achievement />
-      <Contact />
-      <Backtotop />
+    <div className=" text-black dark:text-white">
+      <Bg className="relative overflow-visible">
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Achievement />
+        <Contact />
+        <Backtotop />
+      </Bg>
     </div>
   );
 };

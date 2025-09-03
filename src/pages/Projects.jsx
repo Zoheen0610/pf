@@ -1,4 +1,5 @@
 import React from "react";
+import Bg from "../components/Bg";
 
 const projects = [
   {
@@ -46,58 +47,61 @@ const miniProjects = [
 
 const Projects = () => {
   return (
-    <div className="max-w-4xl mx-auto py-10 px-5">
-      <h1 className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-6">
-        Projects
-      </h1>
+    <div className="dark:bg-black text-black dark:text-white px-4 py-10 min-h-screen">
+      <Bg className="relative overflow-visible">
+        <h1 className="text-3xl font-bold text-center text-black dark:text-white mb-10">
+          Projects
+        </h1>
 
-      <div className="space-y-6">
-        {projects.map((project, index) => (
-          <div
-            key={index}
-            className="border p-4 rounded-lg shadow-md hover:shadow-lg transition"
-          >
-            <h2 className="text-xl font-semibold">{project.title}</h2>
-            <p className="text-gray-600 dark:text-gray-300">
-              {project.description}
-            </p>
-            <a
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 dark:text-blue-400"
+        {/* Main Projects */}
+        <div className="space-y-6 max-w-4xl mx-auto">
+          {projects.map((project, index) => (
+            <div
+              key={index}
+              className="border border-gray-200 dark:border-gray-700 p-6 rounded-xl bg-white dark:bg-gray-800 shadow-md hover:shadow-lg transition"
             >
-              View Project
-            </a>
-          </div>
-        ))}
-      </div>
+              <h2 className="text-xl font-semibold mb-1">{project.title}</h2>
+              <p className="text-gray-600 dark:text-gray-300">
+                {project.description}
+              </p>
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-2 text-blue-600 dark:text-blue-400 font-medium hover:underline"
+              >
+                View Project →
+              </a>
+            </div>
+          ))}
+        </div>
 
-      {/* Mini Projects Section */}
-      <h2 className="text-2xl font-bold text-blue-600 dark:text-blue-400 mt-10 mb-4">
-        Mini Projects
-      </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {miniProjects.map((project, index) => (
-          <div
-            key={index}
-            className="border p-4 rounded-lg shadow-md hover:shadow-lg transition"
-          >
-            <h2 className="text-lg font-semibold">{project.title}</h2>
-            <p className="text-gray-600 dark:text-gray-300">
-              {project.description}
-            </p>
-            <a
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 dark:text-blue-400"
+        {/* Mini Projects */}
+        <h2 className="text-2xl font-bold text-center text-black dark:text-white mt-12 mb-6">
+          Mini Projects
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          {miniProjects.map((project, index) => (
+            <div
+              key={index}
+              className="border border-gray-200 dark:border-gray-700 p-6 rounded-xl bg-white dark:bg-gray-800 shadow-md hover:shadow-lg transition"
             >
-              View Project
-            </a>
-          </div>
-        ))}
-      </div>
+              <h2 className="text-lg font-semibold mb-1">{project.title}</h2>
+              <p className="text-gray-600 dark:text-gray-300">
+                {project.description}
+              </p>
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-2 text-blue-600 dark:text-blue-400 font-medium hover:underline"
+              >
+                View Project →
+              </a>
+            </div>
+          ))}
+        </div>
+      </Bg>
     </div>
   );
 };

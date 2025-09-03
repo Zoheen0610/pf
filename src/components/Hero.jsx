@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="hero flex flex-col items-center justify-center h-screen text-center bg-white dark:bg-black transition-all  p-0 m-0" >
+    
+    <section className="hero flex flex-col z-20 items-center justify-center h-screen text-center bg-transparent dark:bg-transparent transition-all  p-0 m-0" >
       <motion.h1
         className="text-5xl font-bold text-black dark:text-white"
         initial={{ opacity: 0, y: -50 }}
@@ -31,7 +32,7 @@ const Hero = () => {
       >
         Resume
       </motion.a>
-    </section>
+    </section >
   );
 };
 

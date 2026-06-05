@@ -25,10 +25,7 @@ const About = () => {
         >
           <h2 className="text-center text-4xl font-bold dark:text-white py-5">About Me</h2>
           <p className="mt-4 text-gray-600 dark:text-gray-300">
-            Hi, I'm Zoheen, a passionate frontend developer who loves crafting
-            clean and interactive user interfaces. I enjoy working with React,
-            Tailwind CSS, and creating intuitive designs that enhance user
-            experience.
+            Hi, I'm Zoheen, an Early-career tech learner focused on data analytics, AI, and meaningful digital experiences. Interested in turning insights into simple, impactful stories.
           </p>
           <p className="mt-2 text-gray-600 dark:text-gray-300">
             When I'm not coding, I enjoy solving puzzles, exploring new

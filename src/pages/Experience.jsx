@@ -10,9 +10,40 @@ const Experience = () => {
           Experience
         </h1>
 
+
         {/* Experience Cards */}
         <div className="space-y-6 max-w-3xl mx-auto">
-          {[
+          {[{
+              title: "Consultant (Data and Research)",
+              subtitle: "The London School of Economics and Political Science (Nov’25 – Present)",
+              detail: [
+                "Working as a Data Science Consultant on an LSE-led project examining the impact of electrification on development outcomes in Bihar, India.",
+              ]
+          },
+            {
+              title: "Associate — Applied Research",
+              subtitle: "PROTO (Sept’25 – Nov’25)",
+              detail: [
+                "Research prototyping and development for data-driven journalism, contributing to projects at the intersection of NLP & data analytics.",
+                "Migrating large-scale content infrastructure from Drupal CMS to Ghost CMS with the journal’s web platform currently operating across 80+ countries.",
+                "Developed an Airtable to Ghost content automation pipeline using a custom FastAPI server, deployed on Render."
+              ],
+          },
+            {
+            title: "Machine Learning Research Intern",
+              subtitle: "UiT – The Arctic University of Norway (June 2025 – Sept 2025)",
+              detail: [
+                "Worked on developing adaptive deep learning models for streaming data, gaining practical exposure to online learning and neural networks.",
+                "Built modular Python–PyTorch pipelines for training and evaluation, reinforcing analytical and problem-solving skills."
+              ],
+          },
+            {title: "Data Science Research Intern",
+              subtitle: "Jamia Millia Islamia (May 2025 – July 2025)",
+              detail: [
+                "Conducted a data-driven study on urban traffic congestion in Delhi using Python for data analysis, text mining, and visualization.",
+                "Worked with social media data, applying TF-IDF, clustering, and geospatial analysis to identify city-wide traffic patterns.",
+                "Paper accepted for presentation at IEEE DELCON 2025, forthcoming in IEEE Xplore.",
+              ],},
             {
               title: "MLOps Intern",
               subtitle: "EndorseSphere Ventures (Nov 2024 – Jan 2025)",

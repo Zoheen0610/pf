@@ -14,7 +14,7 @@ const Education = () => {
               title:
                 "Bachelor of Technology in Electronics and Communication Engineering",
               subtitle: "Jamia Millia Islamia, New Delhi (2022–26)",
-              detail: "CGPA: 8.65",
+              detail: "CGPA: 8.93 (First Division with Distinction)",
             },
             {
               title: "WE Program by Talentsprint (Supported by Google)",

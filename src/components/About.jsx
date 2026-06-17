@@ -2,36 +2,32 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section
-      id="about"
-      className="py-16 px-6"
-    >
-      <div className="container mx-auto flex flex-col md:flex-row items-center px-6">
-        {/* Image (Optional) */}
-        {/* <motion.img
-          src="https://via.placeholder.com/200" // Replace with your image
-          alt="Profile"
-          className="w-48 h-48 rounded-full mb-6 md:mb-0 md:mr-8"
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1 }}
-        /> */}
+    <section id="about" className="py-20 px-6">
+      <div className="max-w-3xl mx-auto flex flex-col items-center text-center">
 
-        {/* Text Content */}
         <motion.div
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1, delay: 0.5 }}
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
         >
-          <h2 className="text-center text-4xl font-bold dark:text-white py-5">About Me</h2>
-          <p className="mt-4 text-gray-600 dark:text-gray-300">
-            Hi, I'm Zoheen, an Early-career tech learner focused on data analytics, AI, and meaningful digital experiences. Interested in turning insights into simple, impactful stories.
-          </p>
-          <p className="mt-2 text-gray-600 dark:text-gray-300">
-            When I'm not coding, I enjoy solving puzzles, exploring new
-            technologies, and participating in tech fests.
-          </p>
+          <h2 className="text-4xl font-bold dark:text-white mb-6">About Me</h2>
+
+          <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+  I'm Zoheen — a 4th year ECE undergrad from New Delhi, curious about the
+  overlap between research and building. I work mostly in Python, with a focus
+  on NLP, RAG, and geospatial ML. I like problems that sit somewhere between
+  a paper and a product.
+</p>
+
+        <p className="mt-4 text-gray-600 dark:text-gray-300 leading-relaxed">
+          My work spans from estimating electricity access across 38,000+ villages
+          using satellite and socio-economic data, to publishing in IEEE on urban
+          traffic congestion analysis. I care about building systems that are both
+          technically rigorous and practically meaningful.
+        </p>
         </motion.div>
+
       </div>
     </section>
   );

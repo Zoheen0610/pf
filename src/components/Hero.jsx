@@ -19,7 +19,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 1 }}
       >
-        Fullstack Developer | Passionate about Machine Learning
+        Building at the intersection of research and engineering
       </motion.p>
 
       <motion.a

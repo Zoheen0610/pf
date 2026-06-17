@@ -23,7 +23,7 @@ const Hero = () => {
       </motion.p>
 
       <motion.a
-        href="https://drive.google.com/file/d/128HfHWnOqUpuHHjcWOyaK8hzfDzHxifU/view?usp=sharing"
+        href="https://drive.google.com/file/d/1LKwAVjnIf6kJcKlSQC-54dNZ0SzHGfy4/view"
         download="resume.pdf"
         className="mt-6 px-6 py-3 bg-gray-600 text-white font-semibold rounded-md hover:bg-pink-cherry transition-all"
         initial={{ opacity: 0, scale: 0.8 }}
